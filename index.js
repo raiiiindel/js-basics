@@ -3,8 +3,7 @@
 
 /*i.e.*/
 
-var pet = "sebastian the pug";
-console.log(pet);
+
 
 /**
 * #1
@@ -15,26 +14,118 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
+var firstName = "ulu";
+console.log (firstName);
+
+var lastName = "oclit";
+console.log (lastName);
+
+var birthPlace = "kauai";
+console.log (birthPlace);
+
+var favoriteFood = "stuffing";
+console.log (favoriteFood);
+
+var bestMovie = "kingsmen";
+console.log (bestMovie);
+
+var favLoveSong = "I'll Be";
+console.log (favLoveSong);
+
+var cuteAnimal = "finger monkey"
+console.log (cuteAnimal);
+
+var favColor = "purple";
+console.log (favColor);
+
+var favSneaker = "Slippahs";
+console.log (favSneaker);
+
+var coffeeShop = "Morning Glass";
+console.log (coffeeShop);
+
+var test = "git test";
+
 
 
 /**
 * #2
 * Variables with a Number value
 *
-* Declare variables named `favoriteNumber`, `currentYear`, `thatOnePrinceSong`, 'tokyoOlympics`, `mariahCareyAge`, `currentTemp`, `studentsInClass`, `numOfJapanPrefectures`, `currentIphoneModel` and `shoeSize`.     
+* Declare variables named `favoriteNumber`, `currentYear`, `thatOnePrinceSong`, 'tokyoOlympics`, `mariahCareyAge`, `currentTemp`, `studentsInClass`, 
+`numOfJapanPrefectures`, `currentIphoneModel` and `shoeSize`.     
 *
 * Each value should be a Number
 **/
+
+var favoriteNumber = 7;
+console.log (favoriteNumber);
+
+var currentYear = 2017;
+console.log (currentYear);
+
+var thatOnePrinceSong = 1999;
+console.log (thatOnePrinceSong);
+
+var tokyoOlympics = 2020;
+console.log (tokyoOlympics);
+
+var mariahCareyAge = 100;
+console.log (mariahCareyAge);
+
+var currentTemp = 0;
+console.log (currentTemp);
+
+var studentsInClass = 12;
+console.log (studentsInClass);
+
+var numOfJapanPrefectures = 43;
+console.log (numOfJapanPrefectures);
+
+var currentIphoneModel = 7;
+console.log (currentIphoneModel);
+
+var shoeSize = 8;
+console.log (shoeSize);
+
 
 
 /**
 * #3
 * Variables with a Boolean value
 *
-* Declare variables named `likesMcDonalds`, `watchedMrRobot`, `ranMarathon`, `wrestledABear`, `lovesDonuts`, `readHarryPotter`, `sleptInClass`, `drinksCoffee`, `shopsAtWholeFoods` and `ownsRedShoes`.     
+* Declare variables named `likesMcDonalds`, `watchedMrRobot`, `ranMarathon`, `wrestledABear`, `lovesDonuts`, `readHarryPotter`, `sleptInClass`, `drinksCoffee`, 
+`shopsAtWholeFoods` and `ownsRedShoes`.     
 *
 * Each value should be a Boolean
 **/
+
+var likesMcDonalds = true;
+console.log (likesMcDonalds);
+
+var watchedMrRobot = false;
+console.log (watchedMrRobot);
+
+var ranMarathon = false;
+console.log (ranMarathon);
+
+var wrestledABear = true;
+console.log (wrestledABear);
+
+var lovesDonuts = true;
+console.log (lovesDonuts);
+
+var readHarryPotter = true;
+console.log (readHarryPotter);
+
+var sleptInClass = false;
+console.log (sleptInClass);
+
+var shopsAtWholeFoods = true;
+console.log (shopsAtWholeFoods);
+
+var ownsRedShoes = false;
+console.log (ownsRedShoes);
 
 
 /**
@@ -46,12 +137,24 @@ console.log(pet);
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+console.log (completedPrepClass);
+
+var traveledToMars = null;
+console.log (traveledToMars);
+
+var scoredTDinNFL = null;
+console.log (scoredTDinNFL);
+
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 
+/* 
+* Null is a value of 'nothing' that is something. Whereas undefined has no data value defined.
+/*
 
 /**
 * #6
@@ -65,6 +168,24 @@ console.log(pet);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
+var plateLunch = ["laulau", "mochiko chicken", "kalua pig", "mac salad", "rice"];
+console.log (plateLunch);
+
+var fruitBasket = ['apple', 'banana', 'orange', 'cantalope', 'strawberries'];
+console.log (fruitBasket);
+
+var westCoast = ['washington', 'oregon', 'california'];
+console.log (westCoast);
+
+var lotteryResult = ['78945', '54987', '12345', '54321', '96325'];
+console.log (lotteryResult);
+
+var duets = [['sonny and cher'], ['spicegirls'], ['one direction']];
+console.log (duets);
+
+var mixPlate = ['grinds', [2,3], null, true];
+console.log (mixPlate);
+
 
 
 /*7
@@ -76,6 +197,10 @@ What is the length of this array? Please print the length (a number) to the cons
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+console.log (partyList.length);
+console.log (partyList[0]);
+console.log (partyList[4]);
 
 
 
@@ -92,6 +217,17 @@ What is the index position of lemon bars? Please print this item to the console.
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
+var firstName = "ulu";
+var lastName = "oclit";
+var fullName = firstName + " " + lastName;
+console.log (fullName);
+
+
+var whereFrom = fullName + " is from " + birthPlace;
+console.log (whereFrom);
+
+var mariahStory = "At the age of " + mariahCareyAge + ", Mariah Carey, wearing her fancy " + favSneaker + ", sang " + favLoveSong + " at the " + coffeeShop;
+console.log (mariahStory);
 
 
 
@@ -106,10 +242,27 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
+*/
+
+
+var num1 = 10;
+var num2 = 5;
+var sum = num1 + num2;
+console.log (sum);
+
+var difference = num1 - num2;
+console.log (difference);
+var product = num1 * num2;
+console.log (product);
+var quotient = num1 / num2;
+console.log (quotient);
+var remainder = num1 % num2;
+console.log (remainder);
 
 
 
-/**
+/*
+
 * #10
 * Comparisons & Logic
 * Variables with the outcome of a comparison operation:
@@ -129,8 +282,24 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?
+*/
 
+var isStrictlyEqual = "Tacocat" === "tacocat";
+console.log (isStrictlyEqual);
+var isLooselyEqual = "Tacocat" == "tacocat";
+console.log (isLooselyEqual);
 
+var sameNum = "5" === 5;
+console.log (sameNum);
+var sameNumba = "5" == 5;
+console.log (sameNumba);
+
+var or = 3>2 || 3<1;
+console.log (or);
+var and = 3>2 && 6>3;
+console.log (and);
+var and2 = 7>2 && 8<5;
+console.log (and2);
 
 /**
 * #11
@@ -142,8 +311,25 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * and can change values.
 
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
-* assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
-*
+* assignm
+ent statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
+*/
+
+
+
+var myBox = 10;
+console.log (myBox);
+myBox = 5;
+console.log (myBox);
+myBox = 6;
+console.log (myBox);
+myBox = 7;
+console.log (myBox);
+myBox = 8;
+console.log (myBox);
+myBox = 9;
+console.log (myBox);
+
 
 /**
 * Final Boss 
