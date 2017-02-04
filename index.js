@@ -44,8 +44,6 @@ console.log (favSneaker);
 var coffeeShop = "Morning Glass";
 console.log (coffeeShop);
 
-var test = "git test";
-
 
 
 /**
@@ -329,6 +327,7 @@ myBox = 8;
 console.log (myBox);
 myBox = 9;
 console.log (myBox);
+console.log (myBox);
 
 
 /**
@@ -341,18 +340,40 @@ console.log (myBox);
 * For example, if the value is `blueberry`, it should return "Today's special blueberry pie."
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.
+*/
 
 
+function bakePie(ingredient) {
+	return "Today's special " + ingredient + " pie"
+}
+var pieResult = bakePie("blueberry") ;
+console.log (pieResult);
+
+
+
+/*
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
 * For example, if the value is 9, it should return "You jumped 9 feet high!"
 *
 * Declare a variable 'jumpResult' and assign it to the function call.
 * Console.log the variable to see the result.
+*/
+function jump(height) {
+	return "You jumped " + height + "feet high"
+}
+var jumpResult = jump(9);
+console.log (jumpResult);
 
-
+/*
 * Declare a Function named `cook` which a takes three parameters, `ingredient1`, `ingredient2`, `recipeName`.
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+function cook(ingredient1, ingredient2, recipeName) {
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!"
+
+}
+var recipe = cook("Tomatoes", "Cheese", "Pizza");
+console.log (recipe);
 
